@@ -215,6 +215,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .w_color {
   color: #fff;
 }
+.b_color {
+  color: #000;
+}
 
 .t_color2 {
   color: #3f4451;
@@ -5299,6 +5302,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   top: 23%;
 }
 
+
 .s_promo_info .promo_item.item_five {
   left: 84%;
   top: 50%;
@@ -5897,9 +5901,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_item.item_one {
-  background-image: -moz-linear-gradient(40deg, #e87e16 0%, #f0de14 100%);
-  background-image: -webkit-linear-gradient(40deg, #e87e16 0%, #f0de14 100%);
-  background-image: -ms-linear-gradient(40deg, #e87e16 0%, #f0de14 100%);
+  background-image: -moz-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -webkit-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -ms-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
   -webkit-box-shadow: 0px 20px 40px 0px rgba(224, 149, 32, 0.4);
   box-shadow: 0px 20px 40px 0px rgba(224, 149, 32, 0.4);
   right: 0;
@@ -5908,9 +5912,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_item.item_two {
-  background-image: -moz-linear-gradient(40deg, #182dad 0%, #a485fd 100%);
-  background-image: -webkit-linear-gradient(40deg, #182dad 0%, #a485fd 100%);
-  background-image: -ms-linear-gradient(40deg, #182dad 0%, #a485fd 100%);
+  background-image: -moz-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -webkit-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -ms-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
   -webkit-box-shadow: 0px 20px 40px 0px rgba(94, 44, 237, 0.4);
   box-shadow: 0px 20px 40px 0px rgba(94, 44, 237, 0.4);
   left: 140px;
@@ -5918,9 +5922,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_item.item_three {
-  background-image: -moz-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
-  background-image: -webkit-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
-  background-image: -ms-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
+  background-image: -moz-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -webkit-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -ms-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
   -webkit-box-shadow: 0px 20px 40px 0px rgba(224, 56, 39, 0.4);
   box-shadow: 0px 20px 40px 0px rgba(224, 56, 39, 0.4);
   left: 0;
@@ -5929,13 +5933,23 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_item.item_four {
-  background-image: -moz-linear-gradient(40deg, #2171d4 0%, #2cc4f0 100%);
-  background-image: -webkit-linear-gradient(40deg, #2171d4 0%, #2cc4f0 100%);
-  background-image: -ms-linear-gradient(40deg, #2171d4 0%, #2cc4f0 100%);
+  background-image: -moz-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -webkit-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -ms-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
   -webkit-box-shadow: 0px 20px 40px 0px rgba(44, 130, 237, 0.4);
   box-shadow: 0px 20px 40px 0px rgba(44, 130, 237, 0.4);
   right: 0;
+  bottom: 30px;
+}
+.app_item.item_five {
+  background-image: -moz-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -webkit-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  background-image: -ms-linear-gradient(40deg, #d94c27 0%, #d94c27 100%);
+  -webkit-box-shadow: 0px 20px 40px 0px rgba(44, 130, 237, 0.4);
+  box-shadow: 0px 20px 40px 0px rgba(144, 130, 237, 0.4);
+  right: 0;
   bottom: 10px;
+
 }
 
 .app_img {
@@ -10989,7 +11003,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .seo_call_to_action_area {
-  background: #182dad;
+  background: #d94c27;
 }
 
 .seo_call_action_text {
@@ -18477,7 +18491,7 @@ input[type="text"] {
 }
 
 .payment_footer_area {
-  background: #07112d;
+  background: #fff;
   border: 0px;
   padding: 220px 0px 100px;
 }
