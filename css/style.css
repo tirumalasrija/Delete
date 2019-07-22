@@ -28,7 +28,7 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900");
 /*===== color =====*/
 /*====================================================*/
-
+/**/
 
 a {
   text-decoration: none;
@@ -18812,7 +18812,7 @@ ul.tech_used li{
 	line-height: 53px;
 }
 
-.owl-carousel .owl-item img {
+.agency_testimonial_info .testimonial_slider .testimonial_item .author_description img {
     border-radius: 50%;
     height: 60px;
     width: 60px;
