@@ -18866,26 +18866,26 @@ ul.tech_used li{
     height: 100%;
     padding: 0 2%;
     text-align: right;
-    flex: 0 0 55%;
-    max-width: 55%;
+    flex: 0 0 50%;
+    max-width: 50%;
     order: 1;
 }
 
 .section__right {
     height: 100%;
     padding: 0 2%;
-    flex: 0 0 45%;
-    max-width: 45%;
+    flex: 0 0 50%;
+    max-width: 50%;
     order: 2;
 
 }
 
-.section--portfolio:nth-child(1) .section__left {
+.section--portfolio:nth-child(even) .section__left {
     order: 2;
     text-align: left;
 }
 
-.section--portfolio:nth-child(1) .section__right {
+.section--portfolio:nth-child(even) .section__right {
     order: 1;
 }
 

@@ -3432,13 +3432,13 @@
         flex-direction: column;
     }
 
-.section--portfolio:nth-child(1) .section__left {
+.section--portfolio:nth-child(even) .section__left {
     order: 0;
-    text-align: left;
 }
 
-.section--portfolio:nth-child(1) .section__right {
-    order: 1;
+.btns-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .section__left  {
@@ -3483,6 +3483,7 @@
 }
 
 .btns-wrapper .btn:nth-child(2) {
-    margin-left: 10px;
+     margin-left: 0px;
+     margin-top: 20px;
 }
 }
