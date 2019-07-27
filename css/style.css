@@ -4282,7 +4282,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .saas_banner_area_three .slider_item {
-  min-height: 900px;
+  min-height: 500px;
   background-image: -moz-linear-gradient(125deg, #D94C27 0%, #ae59cb 64%, #fd609b 100%);
   background-image: -webkit-linear-gradient(125deg, #D94C27 0%, #ae59cb 64%, #fd609b 100%);
   background-image: -ms-linear-gradient(125deg, #D94C27 0%, #ae59cb 64%, #fd609b 100%);
@@ -4580,12 +4580,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*====================================================*/
 /*================= Start breadcrumb_area css =================*/
 .breadcrumb_area {
-  background-image: -moz-linear-gradient(180deg, #182dad 0%, #a485fd 100%);
-  background-image: -webkit-linear-gradient(180deg, #182dad 0%, #a485fd 100%);
-  background-image: -ms-linear-gradient(180deg, #182dad 0%, #a485fd 100%);
+ background-image:-moz-linear-gradient(180deg,#f73603 0%,#ff4413 100%);
+  background-image:-webkit-linear-gradient(180deg,#d94c27 0%,#e06f52 100%)!important;
+  background-image:-ms-linear-gradient(180deg,#f73603 0%,#ff4413 100%);
   position: relative;
   z-index: 1;
-  padding: 235px 0px 125px;
+  padding: 135px 0px 125px;
   overflow: hidden;
 }
 
