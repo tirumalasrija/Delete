@@ -3188,7 +3188,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   background-image: -moz-linear-gradient(40deg, #1786d8 0%, #00aff0 100%);
   background-image: -webkit-linear-gradient(40deg, #1786d8 0%, #00aff0 100%);
   background-image: -ms-linear-gradient(40deg, #1786d8 0%, #00aff0 100%);
-  height: 930px;
+  height: 770px;
   background-size: cover;
   background-position: 50%;
   position: relative;
@@ -3243,10 +3243,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .mobile_img .mobile {
   z-index: -1;
   position: relative;
+  width: 120%;
 }
 
 .mobile_img .women_img {
-  top: 245px;
+  top: 155px;
   right: 160px;
   z-index: 1;
 }
@@ -4292,9 +4293,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .saas_banner_area_three .slider_item.slider_item_two {
-  background-image: -moz-linear-gradient(-120deg, #8647f9 0%, #4e91c1 64%, #15da88 100%);
-  background-image: -webkit-linear-gradient(-120deg, #8647f9 0%, #4e91c1 64%, #15da88 100%);
-  background-image: -ms-linear-gradient(-120deg, #8647f9 0%, #4e91c1 64%, #15da88 100%);
+
+  background-image:-moz-linear-gradient(180deg,#f73603 0%,#ff4413 100%);background-image:-webkit-linear-gradient(180deg,#d94c27 0%,#e06f52 100%)!important;background-image:-ms-linear-gradient(180deg,#f73603 0%,#ff4413 100%);
+
 }
 
 .saas_banner_area_three .slider_item .slidet_content {
@@ -4347,6 +4348,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #fff;
   padding-top: 190px;
 }
+
+.saas_banner_area_three .slider_item .slidet_content_two h3 { color: #fff;}
 
 .saas_banner_area_three .slider_item .slidet_content_two h2 {
   font-size: 50px;
@@ -5598,9 +5601,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   height: 46px;
   line-height: 46px;
   border-radius: 50%;
-  background-image: -moz-linear-gradient(40deg, #182dad 0%, #a485fd 100%);
-  background-image: -webkit-linear-gradient(40deg, #182dad 0%, #a485fd 100%);
-  background-image: -ms-linear-gradient(40deg, #182dad 0%, #a485fd 100%);
+  background-image: -moz-linear-gradient(40deg, #d94c27  0%, #e47a5e 100%);
+  background-image: -webkit-linear-gradient(40deg, #d94c27  0%, #e47a5e 100%);
+  background-image: -ms-linear-gradient(40deg, #d94c27  0%, #e47a5e 100%);
   -webkit-box-shadow: 0px 10px 20px 0px rgba(94, 44, 237, 0.2);
   box-shadow: 0px 10px 20px 0px rgba(94, 44, 237, 0.2);
   font-size: 20px;
@@ -19110,3 +19113,89 @@ ul.tech_used li{
   background: #d94c27;
     color: #fff;
 }
+
+
+/*TAB START CSS*/
+
+
+.software_service_tab {
+    margin: 0px;
+    border: 0px;
+    display: block;
+}
+
+.software_service_tab .nav-item {
+    margin: 0px;
+}
+
+.software_service_tab .nav-item .nav-link.active {
+    border-left-color: #d94c27;
+    color: #d94c27;
+}
+
+.software_service_tab .nav-item .nav-link.active:before {
+    opacity: 1;
+}
+
+.software_service_tab .nav-item .nav-link:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 0 7px 8px;
+    border-color: transparent transparent transparent #d94c27;
+    position: absolute;
+    left: -2px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 0;
+}
+
+.software_service_tab_content {
+    margin-bottom: -70px;
+}
+
+.tab-content>.active {
+    display: block;
+}
+
+.software_service_tab_content .software_service_item {
+    padding-right: 30px;
+}
+
+.mb_70 {
+    margin-bottom: 70px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
+  }
+
+  .col-lg-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.offset-lg-2 {
+    margin-left: 16.666667%;
+}
+
+
+
+}
+  @media (max-width:768px) {
+    
+    section.process_area.bg_color.sec_pad .software_service_tab {
+        display: flex;
+    }
+
+    section.process_area.bg_color.sec_pad .software_service_tab li.nav-item {
+        width: 50%;
+    }
+
+  }
