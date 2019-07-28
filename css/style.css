@@ -19169,6 +19169,13 @@ ul.tech_used li{
     margin-bottom: 70px;
 }
 
+.startup_tab_img h4 {
+    font-size: 17px;
+    line-height: 33px;
+    text-align: center;
+    font-weight: 400;
+}
+
 @media (min-width: 992px) {
   .col-lg-9 {
       -ms-flex: 0 0 75%;
@@ -19196,6 +19203,19 @@ ul.tech_used li{
 
     section.process_area.bg_color.sec_pad .software_service_tab li.nav-item {
         width: 50%;
+    }
+
+    .h_features_content {
+        padding-right: 0px;
+    } 
+
+    .h_features_content .hosting_title h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .h_features_item {
+        padding-right: 0px;
     }
 
   }
