@@ -415,6 +415,7 @@
     }
     .app_item.item_three{
         bottom: 35px;
+        left: 100px;
     }
     .app_feature_info .app_img .dot{
         display: block;
@@ -984,7 +985,7 @@
     }
     .app_item.item_two {
         left: 31px;
-        top: 120px;
+        top: 30px;
     }
     .app_item.item_one{
         top: -50px;
