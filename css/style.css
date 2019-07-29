@@ -4272,8 +4272,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .saas_banner_area_three .owl-dots button span {
-  background: #9886f7;
-  border-color: #9886f7;
+  background: #af2602;
+  border-color: #af2602;
 }
 
 .saas_banner_area_three .owl-dots button.active span {
@@ -4283,9 +4283,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .saas_banner_area_three .slider_item {
   min-height: 500px;
-  background-image: -moz-linear-gradient(125deg, #D94C27 0%, #ae59cb 64%, #fd609b 100%);
-  background-image: -webkit-linear-gradient(125deg, #D94C27 0%, #ae59cb 64%, #fd609b 100%);
-  background-image: -ms-linear-gradient(125deg, #D94C27 0%, #ae59cb 64%, #fd609b 100%);
+  background-image: -moz-linear-gradient(125deg, #D94C27 0%, #e24117 64%, #af2602 100%);
+  background-image: -webkit-linear-gradient(125deg, #D94C27 0%, #e24117 64%, #af2602 100%);
+  background-image: -ms-linear-gradient(125deg, #D94C27 0%, #e24117 64%, #af2602 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
