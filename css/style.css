@@ -438,8 +438,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .price_btn {
   font: 500 15px/53px "Poppins", sans-serif;
-  color: #6754e2;
-  border: 1px solid #6754e2;
+  color: #d94c27;
+  border: 1px solid #d94c27;
   border-radius: 4px;
   padding: 0px 25px;
   display: inline-block;
@@ -449,7 +449,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .price_btn:hover {
-  background: #6754e2;
+  background: #d94c27;
   color: #fff;
 }
 
@@ -7459,11 +7459,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .d_product_content_two .develor_tab .nav-item .nav-link:before {
-  background: #182dad;
+  background: #d94c27;
 }
 
 .d_product_content_two .develor_tab .nav-item .nav-link.active {
-  color: #182dad;
+  color: #d94c27;
 }
 
 .tab_img_info {
@@ -9373,7 +9373,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .agency_testimonial_info .testimonial_slider .owl-dots .owl-dot.active {
-  border-color: #182dad;
+  border-color: #d94c27;
 }
 
 .agency_testimonial_info .testimonial_slider .owl-dots .owl-dot.active span {
@@ -9388,7 +9388,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   line-height: 50px;
   border-radius: 50%;
   border: 1px solid #f3f5f8;
-  background-color: #d94c27;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.06);
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.06);
   position: absolute;
@@ -11074,7 +11073,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_screenshot_area .app_screenshot_slider .owl-dots .owl-dot.active span {
-  background: #653cee;
+  background: #d94c27;
 }
 
 .app_screenshot_area .app_screenshot_slider .owl-prev, .app_screenshot_area .app_screenshot_slider .owl-next {
@@ -18525,6 +18524,7 @@ input[type="text"] {
 
 .payment_footer_area_two {
   padding: 100px 0px;
+  text-align: center;
 }
 
 /*============ new_footer_area css ===========*/
@@ -19219,3 +19219,18 @@ ul.tech_used li{
     }
 
   }
+
+  @media (max-width: 991px) {
+   .app_item.item_four {
+      right: 0px;
+      bottom: -43px;
+  }
+
+  .app_item.item_three {
+    left: 100px;
+  }
+
+  .footer_top_six .f_widget {
+    text-align: center!important;
+  }
+}
