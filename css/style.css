@@ -2400,7 +2400,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .header_area.navbar_fixed .menu_four .menu_toggle .hamburger span, .header_area.navbar_fixed .menu_four .menu_toggle .hamburger-cross span {
-  background: #6754e2;
+  background: #d94c27;
 }
 
 .header_area.navbar_fixed .nav_right_btn .login_btn {
@@ -2795,7 +2795,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .navbar .offcanfas_menu > .nav-item.submenu .dropdown-menu > .nav-item:hover .nav-link, .navbar .offcanfas_menu > .nav-item.submenu .dropdown-menu > .nav-item.active .nav-link {
-  color: #5f28fb;
+  color: #d94c27;
 }
 
 .navbar .offcanfas_menu > .nav-item.submenu.active .nav-link {
@@ -4283,9 +4283,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .saas_banner_area_three .slider_item {
   min-height: 500px;
-  background-image: -moz-linear-gradient(125deg, #D94C27 0%, #e24117 64%, #af2602 100%);
-  background-image: -webkit-linear-gradient(125deg, #D94C27 0%, #e24117 64%, #af2602 100%);
-  background-image: -ms-linear-gradient(125deg, #D94C27 0%, #e24117 64%, #af2602 100%);
+  background-image: -moz-linear-gradient(180deg,#d94c27 0%,#e06f52 100%);
+  background-image: -webkit-linear-gradient(180deg,#d94c27 0%,#e06f52 100%);
+  background-image: -ms-linear-gradient(180deg,#d94c27 0%,#e06f52 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4580,9 +4580,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*====================================================*/
 /*================= Start breadcrumb_area css =================*/
 .breadcrumb_area {
- background-image:-moz-linear-gradient(180deg,#f73603 0%,#ff4413 100%);
-  background-image:-webkit-linear-gradient(180deg,#d94c27 0%,#e06f52 100%)!important;
-  background-image:-ms-linear-gradient(180deg,#f73603 0%,#ff4413 100%);
+ background-color:#d94c27; 
   position: relative;
   z-index: 1;
   padding: 135px 0px 125px;
@@ -4594,6 +4592,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   right: 0;
   top: 0;
   z-index: -1;
+  display: none;
 }
 
 /*================= End breadcrumb_area css =================*/
@@ -11412,7 +11411,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .job_listing .listing_tab .list_item .joblisting_text ul li.p_color {
-  color: #182dad;
+  color: #d94c27;
 }
 
 .job_listing .listing_tab .list_item .joblisting_text ul li.g_color {
@@ -11440,8 +11439,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .job_listing .listing_tab .list_item .joblisting_text .jobsearch-job-userlist .apply_btn:hover {
-  background: #182dad;
-  border-color: #182dad;
+  background: #d94c27;
+  border-color: #d94c27;
   color: #fff;
 }
 
@@ -11502,8 +11501,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .details_content .btn_three {
   min-width: 150px;
   text-align: center;
-  background: #182dad;
-  border-color: #182dad;
+  background: #d94c27;
+  border-color: #d94c27;
   color: #fff;
 }
 
@@ -11530,7 +11529,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: absolute;
   left: 0;
   top: 5px;
-  color: #5f2eed;
+  color: #d94c27;
 }
 
 .job_deatails_content:nth-child(4) {
@@ -11552,7 +11551,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .job_info .info_head i {
   font-size: 40px;
-  color: #9979f7;
+  color: #d94c27;
   text-shadow: 0px 14px 30px rgba(94, 44, 237, 0.4);
   margin-bottom: 35px;
   display: inline-block;
@@ -11565,7 +11564,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .job_info .info_item i {
-  color: #9979f7;
+  color: #d94c27;
   font-size: 18px;
   position: absolute;
   left: 0;
@@ -11667,7 +11666,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .apply_form .btn_three {
   font-size: 14px;
   font-weight: 500;
-  background: #182dad;
+  background: #d94c27;
   padding: 14px 37px;
   border-radius: 3px;
   -webkit-transition: all 0.3s linear;
@@ -12346,14 +12345,14 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .contact_form_box .btn_three {
   min-width: 180px;
   text-align: center;
-  background: #182dad;
-  border-color: #182dad;
+  background: #d94c27;
+  border-color: #d94c27;
   margin-top: 0px;
 }
 
 .contact_form_box .btn_three:hover {
   background: transparent;
-  color: #182dad;
+  color: #d94c27;
 }
 
 .mapbox2 {
@@ -19220,6 +19219,19 @@ ul.tech_used li{
 
   }
 
+
+@media (max-width: 1199px){
+  .app_item.item_four {
+      right: 122px;
+  }
+
+  .app_item.item_three {
+    left: 0px;
+}
+
+}
+
+
   @media (max-width: 991px) {
    .app_item.item_four {
       right: 0px;
@@ -19234,3 +19246,4 @@ ul.tech_used li{
     text-align: center!important;
   }
 }
+
