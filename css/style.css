@@ -1118,7 +1118,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item:focus > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link {
-  color: #182dad;
+  color: #d94c27;
 }
 
 .menu > .nav-item.submenu .dropdown-menu .nav-item:first-child {
@@ -7421,7 +7421,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .developer_product_content .developer_tab_content p {
-  line-height: 28px;
+  line-height: 20px;
   font-weight: 300;
 }
 
@@ -11592,7 +11592,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 30px;
 }
 
-.apply_form input[type="text"], .apply_form textarea, .apply_form .selectpickers {
+.apply_form input, .apply_form textarea, .apply_form .selectpickers {
   border-radius: 4px;
   background-color: white;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
@@ -18925,7 +18925,7 @@ ul.tech_used li{
 .frame {
     width: 100%;
     background: #fff;
-    border: 4px solid var(--third-color);
+    border: 4px solid #000;
     border-radius: 2px;
     position: relative;
     border-right-width: 3px;
@@ -18937,6 +18937,7 @@ ul.tech_used li{
     background: var(--third-color);
     position: relative;
     height: 40px;
+    background-color: #000;
 }
 
 
@@ -19174,6 +19175,14 @@ ul.tech_used li{
     line-height: 33px;
     text-align: center;
     font-weight: 400;
+}
+
+.f_widget.about-widget .f_list li:hover {
+    color: #7f88a6;
+}
+
+.payment_footer_area .f_widget.about-widget .f_list li a:hover {
+    color: #7f88a6;
 }
 
 @media (min-width: 992px) {
