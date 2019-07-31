@@ -1100,7 +1100,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding: 0px;
   white-space: nowrap;
   font: 400 14px/34px "Poppins", sans-serif;
-  color: #051441;
+  color: #d94c27;
   -webkit-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   transition: color 0.2s linear;
@@ -7386,7 +7386,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font: 400 16px "Poppins", sans-serif;
   color: #677294;
   border: 0px;
-  padding: 0px 0px 10px;
+  padding: 0px 0px 6px 6px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -7398,7 +7399,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   height: 2px;
   background: #3d64f4;
   position: absolute;
-  bottom: -2px;
+  bottom: 0px;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
