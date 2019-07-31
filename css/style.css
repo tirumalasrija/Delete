@@ -11605,26 +11605,26 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border: 1px solid #fff;
 }
 
-.apply_form input[type="text"]:focus, .apply_form textarea:focus, .apply_form .selectpickers:focus {
+.apply_form input:focus, .apply_form textarea:focus, .apply_form .selectpickers:focus {
   -webkit-box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);
   box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);
   border-color: #f2effc;
   outline: none;
 }
 
-.apply_form input[type="text"].placeholder, .apply_form textarea.placeholder, .apply_form .selectpickers.placeholder {
+.apply_form input.placeholder, .apply_form textarea.placeholder, .apply_form .selectpickers.placeholder {
   color: #9ca3b9;
 }
 
-.apply_form input[type="text"]:-moz-placeholder, .apply_form textarea:-moz-placeholder, .apply_form .selectpickers:-moz-placeholder {
+.apply_form input:-moz-placeholder, .apply_form textarea:-moz-placeholder, .apply_form .selectpickers:-moz-placeholder {
   color: #9ca3b9;
 }
 
-.apply_form input[type="text"]::-moz-placeholder, .apply_form textarea::-moz-placeholder, .apply_form .selectpickers::-moz-placeholder {
+.apply_form input::-moz-placeholder, .apply_form textarea::-moz-placeholder, .apply_form .selectpickers::-moz-placeholder {
   color: #9ca3b9;
 }
 
-.apply_form input[type="text"]::-webkit-input-placeholder, .apply_form textarea::-webkit-input-placeholder, .apply_form .selectpickers::-webkit-input-placeholder {
+.apply_form input::-webkit-input-placeholder, .apply_form textarea::-webkit-input-placeholder, .apply_form .selectpickers::-webkit-input-placeholder {
   color: #9ca3b9;
 }
 
