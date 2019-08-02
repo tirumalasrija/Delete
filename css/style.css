@@ -3212,17 +3212,19 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .leaf {
-  position: absolute;
+  /*position: absolute;*/
 }
 
 .leaf.l_left {
   top: 200px;
   left: 260px;
+  position: absolute;
 }
 
 .leaf.l_right {
   right: 0;
   bottom: 100px;
+  position: absolute;
 }
 
 .mobile_img {
@@ -19225,6 +19227,14 @@ ul.tech_used li{
 
     .h_features_item {
         padding-right: 0px;
+    }
+
+    img.women_img {
+    position: absolute;
+}
+
+    .feature_info .feature_img {
+        text-align: center;
     }
 
   }
