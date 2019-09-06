@@ -5941,6 +5941,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-top: 10px;
 }
 
+
 .app_item.item_one {
   background-image: -moz-linear-gradient(40deg, #e87e16 0%, #f0de14 100%);
   background-image: -webkit-linear-gradient(40deg, #e87e16 0%, #f0de14 100%);
@@ -5963,13 +5964,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_item.item_three {
-  background-image: -moz-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
-  background-image: -webkit-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
-  background-image: -ms-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
+  background-image: -moz-linear-gradient(40deg,  rgb(49, 238, 169)  0%, rgb(118, 235, 192) 100%);
+  background-image: -webkit-linear-gradient(40deg, rgb(49, 238, 169) 0%, rgb(118, 235, 192) 100%);
+  background-image: -ms-linear-gradient(40deg, rgb(49, 238, 169) 0%, rgb(118, 235, 192) 100%);
   -webkit-box-shadow: 0px 20px 40px 0px rgba(224, 56, 39, 0.4);
   box-shadow: 0px 20px 40px 0px rgba(224, 56, 39, 0.4);
   left: 0;
-  bottom: 70px;
   z-index: -1;
 }
 
@@ -5980,7 +5980,17 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -webkit-box-shadow: 0px 20px 40px 0px rgba(44, 130, 237, 0.4);
   box-shadow: 0px 20px 40px 0px rgba(44, 130, 237, 0.4);
   right: 0;
+  bottom: -47px;
+}
+.app_item.item_five {
+  background-image: -moz-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
+  background-image: -webkit-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
+  background-image: -ms-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
+  -webkit-box-shadow: 0px 20px 40px 0px rgba(224, 56, 39, 0.4);
+  box-shadow: 0px 20px 40px 0px rgba(224, 56, 39, 0.4);
+  left: 0;
   bottom: 10px;
+  z-index: -1;
 }
 
 .app_img {
