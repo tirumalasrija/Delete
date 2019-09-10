@@ -153,6 +153,20 @@ color:#af0606;
   transform: scaleX(-1);
 }
 @media screen and (max-width: 728px) and (min-width: 320px) {
+  .webForm {
+    margin-right: 0;
+    border: 2px solid #D94C27;
+    padding: 25px 20px 25px 20px;
+  }
+  .webForm .md-form {
+    width: 100%;
+    margin: 1em;
+    display: inline-block;
+    margin: 1em 0 1em 0;
+  }
+  .form-control {
+    padding: 0.7rem 0 0.7rem 0.7rem;
+  }
   .quote_form{
     width:100%;
     top:auto;
@@ -176,6 +190,11 @@ color:#af0606;
   .social_icons a{
     display: inline;
   }
+  .separator {
+    color: #fff;
+    font-size: 35px;
+    padding-top: 15px;
+  }
   .social_icons .social_icons_mobile{
     display: inline;
     text-decoration: none;
@@ -186,10 +205,28 @@ color:#af0606;
   .social_icons .social_icons_desktop{
     display: none;
   }
+  .prototype_content h2 {
+    line-height: 1em !important;
+  }
+  .prototype_content p {
+    line-height: 1.4rem;
+  }
+  .mb_20 {
+    margin-bottom: 17px;
+  }
+  .mb_40 {
+    margin-bottom: 12px;
+  }
+  .text-webmobilez{
+    font-size: 1rem;
+  }
+  .webForm h5{
+    font-size: 0.8rem;
+  }
 }
 .webContent {
     background: #fbfbfd;
-    padding-top: 110px;
+    padding-top: 75px;
     position: relative;
     z-index: 0;
     overflow: hidden;
