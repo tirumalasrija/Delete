@@ -147,6 +147,46 @@ color:#55acee;
 .fa-yelp{
 color:#af0606;
 }
+.fa-phone {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+@media screen and (max-width: 728px) and (min-width: 320px) {
+  .quote_form{
+    width:100%;
+    top:auto;
+    margin: auto;
+  }
+  .quote_form .md-form{
+    width: 100%;
+  }
+.fa-whatsapp {
+    color:#25D366;
+    font-size: 24px;
+  }
+  .social_icons{
+    width: 100%;
+    bottom:0;
+    background-color:#677294;/*#25D366;*/
+    display: flex;
+    margin-left: 0;
+    align-content: space-around;
+  }
+  .social_icons a{
+    display: inline;
+  }
+  .social_icons .social_icons_mobile{
+    display: inline;
+    text-decoration: none;
+    color :#fff;
+    padding-top: 5%;
+    font-size: 20px;
+  }
+  .social_icons .social_icons_desktop{
+    display: none;
+  }
+}
 .webContent {
     background: #fbfbfd;
     padding-top: 110px;
