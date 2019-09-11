@@ -154,6 +154,19 @@ color:#af0606;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+.scroll-top {
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  bottom: 25px;
+  left: 20px;
+  display: none;
+  z-index: 20;
+}
+.scroll-top i {
+  display: inline-block;
+  color: #fff;
+}
 @media screen and (max-width: 728px) and (min-width: 320px) {
   .webForm {
     margin-right: 0;

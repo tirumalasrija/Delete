@@ -937,7 +937,25 @@
     }
     active_dropdown();
     
-   
+   /**
+    * Added function to scroll to top- srikanth
+    * 
+    */
+    $(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 10) {
+        $('.scroll-top').fadeIn();
+       } else {
+        $('.scroll-top').fadeOut();
+        }
+    });
+    $('.scroll-top').click(function () {
+        $("html, body").animate({
+        scrollTop: 0
+        }, 100);
+        return false;
+    });
+    });
     
 //    $('.burger_menu').click(function(){
 //            $(this).toggleClass('open');
