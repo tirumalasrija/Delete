@@ -143,7 +143,9 @@ color:#55acee;
 .fa-instagram{
 color:#55acee;
 }
-
+.separator {
+  display: none;
+}
 .fa-yelp{
 color:#af0606;
 }
@@ -194,6 +196,7 @@ color:#af0606;
     color: #fff;
     font-size: 35px;
     padding-top: 15px;
+    display: inline;
   }
   .social_icons .social_icons_mobile{
     display: inline;
