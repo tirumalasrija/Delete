@@ -5948,6 +5948,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   right: 0;
   bottom: -47px;
 }
+.customer_logo {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
 .app_item.item_five {
   background-image: -moz-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
   background-image: -webkit-linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
