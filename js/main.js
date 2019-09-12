@@ -939,11 +939,11 @@
     
    /**
     * Added function to scroll to top- srikanth
-    * 
+    * push
     */
     $(document).ready(function () {
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 10) {
+        if ($(this).scrollTop() > 100) {
         $('.scroll-top').fadeIn();
        } else {
         $('.scroll-top').fadeOut();

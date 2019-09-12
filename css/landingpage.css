@@ -163,6 +163,11 @@ color:#af0606;
   display: none;
   z-index: 20;
 }
+.btn-primary {
+  color: #fff;
+  background-color: #677294;
+  border-color: #677294;
+}
 .scroll-top i {
   display: inline-block;
   color: #fff;
@@ -220,6 +225,12 @@ color:#af0606;
   }
   .social_icons .social_icons_desktop{
     display: none;
+  }
+  .scroll-top {
+    bottom: 20%;
+    width: 50px;
+    height: 50px;
+    left: 0;
   }
   .prototype_content h2 {
     line-height: 1em !important;
