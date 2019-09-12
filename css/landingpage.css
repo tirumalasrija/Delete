@@ -155,11 +155,11 @@ color:#af0606;
   transform: scaleX(-1);
 }
 .scroll-top {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   position: fixed;
   bottom: 25px;
-  left: 20px;
+  left: 0;
   display: none;
   z-index: 20;
 }
