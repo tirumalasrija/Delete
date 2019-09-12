@@ -16,10 +16,24 @@
       margin: 1em;
       display: inline-block;
   }
+  .md-form input {
+    width: 100%;
+    float: left;
+  }
+  .md-form i {
+    float: left;
+    background: #2d1e1e;
+    width: 38px;
+    padding: .36rem .75rem;
+    border-radius: .25rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    position: absolute;
+  }
+  .footer_three .footer_top .f_widget.about-widget .f_list li a:hover {
+    color: black;
+  }
 
-.webForm{
- 
-}
 .hosting_service_item{
     padding: 26px 40px;
 }
