@@ -950,11 +950,12 @@
         }
     });
     $('.scroll-top').click(function () {
-        $("html, body").animate({
-        scrollTop: 0
-        }, 100);
+        $('html, body').animate({
+            scrollTop: $("#form-content").offset().top -120
+        }, 1000);
         return false;
     });
+    
     });
     
 //    $('.burger_menu').click(function(){
