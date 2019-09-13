@@ -31,12 +31,10 @@
   .btn_three {
     margin-top: 0;
   }
-  .f_400{
-    margin-top: 2rem;
+  .f_400 .mb_40{
+    margin: 0;
   }
-  .webContent .prototype_content{
-    margin-top: 8%;
-  }
+
   .f_widget.about-widget .f_list li a:before{
     color:#665cb7;
     background: none;
