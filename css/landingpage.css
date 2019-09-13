@@ -11,24 +11,60 @@
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
   }
+  .tab_img img {
+    margin-top: 25%
+  }
   .webForm .md-form {
       width: 90%;
       margin: 1em;
       display: inline-block;
   }
   .md-form input {
-    width: 100%;
+    width: 90%;
     float: left;
+    margin-left: 0;
+    border-radius: 0;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border: 0;
+  }
+  .btn_three {
+    margin-top: 0;
+  }
+  .f_400{
+    margin-top: 2rem;
+  }
+  .webContent .prototype_content{
+    margin-top: 8%;
+  }
+  .f_widget.about-widget .f_list li a:before{
+    color:#665cb7;
+    background: none;
+  }
+  .p_feature_item img {
+    max-height: 280px;
   }
   .md-form i {
     float: left;
-    background: #2d1e1e;
-    width: 38px;
-    padding: .36rem .75rem;
-    border-radius: .25rem;
+    display: block;
+    width: 37px;
+    padding: .375rem .75rem;
     font-size: 1rem;
-    line-height: 1.6rem;
-    position: absolute;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #ca3434;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    margin-top: 0.01rem;
+  }
+  .md-form i.fa-phone {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+
   }
   .footer_three .footer_top .f_widget.about-widget .f_list li a:hover {
     color: black;
@@ -115,10 +151,9 @@ display: none;
 }
 
 .social_icons{
-  
 position: fixed;
-bottom: 50%;
-margin-left: 15px;
+bottom: 12%;
+/* margin-left: 15px; */
 width: 10%;
 z-index: 5;
 text-align: center;
@@ -199,6 +234,13 @@ color:#af0606;
     display: inline-block;
     margin: 1em 0 1em 0;
   }
+  .md-form input {
+    width: 85%;
+  }
+  .md-form i {
+    padding:0.62rem;
+  }
+
   .form-control {
     padding: 0.7rem 0 0.7rem 0.7rem;
   }
