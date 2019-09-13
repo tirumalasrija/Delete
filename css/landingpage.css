@@ -82,7 +82,7 @@
   border: 1px solid #ced4da;
   border-top-left-radius: .25rem;
   border-bottom-left-radius: .25rem;
-  margin-top: 0.01rem;
+  margin-top: -1px
 }
 
 .md-form i.fa-phone {
@@ -300,7 +300,7 @@
   }
 
   .md-form i {
-    padding: 0.62rem;
+    padding: 0.72rem;
   }
 
   .form-control {
