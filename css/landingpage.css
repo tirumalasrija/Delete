@@ -1,4 +1,80 @@
 /* Srikanth changes for landing pages */
+body {
+  /* background-image: url("../img/background.jpg");
+  background-repeat:repeat; */
+ 
+}
+.payment_footer_area.payment_footer_area_two {
+  padding: 3rem 3rem 0 3rem;
+}
+.footer_top {
+  padding: 0 !important;
+}
+.callUs a {
+  color:  #677294;
+}
+.headingP ul {
+  list-style: none;
+  list-style-type:none;
+}
+.bottom_cont {
+  margin-top: 7rem;
+  background: #533673;
+}
+.call-back {
+  text-align: center;
+  color: #fff;
+}
+.call-back h2, .call-back h3, .call-back ul li a {
+  color: #fff;
+}
+.call-back h3 {
+  padding-top: 1rem;
+}
+.call-back ul{
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+}
+.call-back li{
+  float: left;
+  padding: 2rem 4rem;
+}
+.call-back li i{
+padding: 1rem;
+border-radius: 32px;
+background: #ca3434;
+}
+
+.call-back li:first-child, .call-back li:nth-child(
+ 2 
+){
+  float: left;
+  padding-top: 2rem;
+}
+.headingP ul li:before {
+  content: "\2714";
+  display: block;
+  color: #418f36;
+  display: inline-block;
+  padding-right: 1rem;
+  border: 1px solid transparent;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.sec_pad {
+  padding: 50px 0;
+}
+.scroll-btn {
+  color: #fff ;
+  background-color: #677294 !important;
+  border-color: #677294 !important;
+  box-shadow: #665cb7 !important;
+}
+.scroll-btn:hover, .scroll-btn:active, .scroll-btn:visited{
+  background-color: #677294 !important;
+  box-shadow: #665cb7 !important;
+}
 .webForm {
   top: 25%;
   z-index: 20;
@@ -23,7 +99,7 @@
   text-align: center;
 }
 .headingP{
-  margin-top: 8%;
+  margin-top: 4%;
 }
 .webContent .container {
   margin-top: 4%;
@@ -67,6 +143,9 @@
 
 .p_feature_item img {
   max-height: 280px;
+}
+span.wpcf7-not-valid-tip {
+  margin-top: 3rem;
 }
 
 .md-form i {
@@ -238,18 +317,33 @@
   z-index: 20;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #677294;
-  border-color: #677294;
-}
-
 .scroll-top i {
   display: inline-block;
   color: #fff;
 }
+/* ---- reset ---- */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #8c878752;
+}
+
 
 @media screen and (max-width: 900px) and (min-width: 320px) {
+  .call-back li{
+    padding: 1rem 1rem;
+  }
+  .callUs {
+    display: none;
+  }
   .webContent .container {
     margin-top: 12%;
   }
@@ -396,9 +490,9 @@
 }
 
 .webContent {
-  background: #fbfbfd;
+  /* background: #fbfbfd; need to be revoked*/ 
   padding-top: 75px;
-  position: relative;
+  /* position: relative; */
   z-index: 0;
   overflow: hidden;
 }

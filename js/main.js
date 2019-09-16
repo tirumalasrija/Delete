@@ -942,6 +942,10 @@
     * push
     */
     $(document).ready(function () {
+        $('btn').on('click',function(e){
+            e.preventDefault();
+            return false;
+        })
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
         $('.scroll-top').fadeIn();
@@ -961,6 +965,7 @@
 //    $('.burger_menu').click(function(){
 //            $(this).toggleClass('open');
 //        });
+
     
     function hamberger_menu(){
         if ( $('.burger_menu').length ){
