@@ -246,7 +246,7 @@ span.wpcf7-not-valid-tip {
 .social_icons {
   position: fixed;
   bottom: 12%;
-  /* margin-left: 15px; */
+  margin-left: -1rem;
   width: 10%;
   z-index: 5;
   text-align: center;
@@ -432,7 +432,6 @@ canvas {
     background-color: #677294;
     /*#25D366;*/
     display: flex;
-    margin-left: 0;
     align-content: space-around;
   }
 
