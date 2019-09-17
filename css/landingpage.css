@@ -1,8 +1,16 @@
 /* Srikanth changes for landing pages */
-body {
-  /* background-image: url("../img/background.jpg");
-  background-repeat:repeat; */
- 
+#mainCont{
+  height: 93px;
+}
+.banner_shap{
+  width: 80%;
+  top: -100px;
+  position: absolute;
+  z-index: -1;
+  vertical-align: middle;
+  border-style: none;
+  right:0;
+
 }
 .payment_footer_area.payment_footer_area_two {
   padding: 3rem 3rem 0 3rem;
@@ -11,7 +19,7 @@ body {
   padding: 0 !important;
 }
 .callUs a {
-  color:  #677294;
+  color:  #fff;
 }
 .headingP ul {
   list-style: none;
@@ -338,6 +346,14 @@ canvas {
 
 
 @media screen and (max-width: 900px) and (min-width: 320px) {
+  .banner_shap {
+    width: auto;
+    top: 0;
+    max-width: 100%;
+  }
+  #mainCont{
+    height: 69px;
+  }
   .call-back li{
     padding: 1rem 1rem;
   }
