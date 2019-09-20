@@ -19334,5 +19334,16 @@ color:#d94c27 !important;
 
 }
 
+/* srikanth's changes  */
+.p_service_item  .icons {
+  width: 27%;
+  padding: 0 0 9% 0;
+  position: static;
+}
+
+.p_service_item  .icons img {
+  height: 100%;
+  width: 100%
+}
 
 
