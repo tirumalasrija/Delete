@@ -33,9 +33,9 @@
   text-align: center;
   color: #fff;
 }
-.call-back h2, .call-back h3, .call-back ul li a {
+/*.call-back h2, .call-back h3, .call-back ul li a {
   color: #fff;
-}
+}*/
 .call-back h3 {
   padding-top: 1rem;
 }
@@ -43,10 +43,12 @@
   list-style: none;
   display: inline-block;
   width: 100%;
+	text-align: center;
 }
 .call-back li{
-  float: left;
-  padding: 2rem 4rem;
+  display: inline-block;
+  padding: 2rem 2rem;
+	font-weight: 400;
 }
 .call-back li i{
 padding: 1rem;
@@ -54,12 +56,7 @@ border-radius: 32px;
 background: #ca3434;
 }
 
-.call-back li:first-child, .call-back li:nth-child(
- 2 
-){
-  float: left;
-  padding-top: 2rem;
-}
+
 .headingP ul li:before {
   content: "\2714";
   display: block;
@@ -70,8 +67,8 @@ background: #ca3434;
   font-weight: bold;
   font-size: 1rem;
 }
-.sec_pad {
-  padding: 50px 0;
+.sec_pad_sm {
+  padding: 80px 0;
 }
 .scroll-btn {
   color: #fff ;
@@ -87,7 +84,7 @@ background: #ca3434;
   top: 25%;
   z-index: 20;
   margin-right: 0;
-  background-color: #8c878752;
+  background-color: #eee;
   padding: 25px;
   margin-right: 1rem;
   right: 0;
@@ -122,18 +119,19 @@ background: #ca3434;
 
 .webForm .md-form {
   width: 90%;
-  margin: 1em;
+  margin-bottom: 15px;
   display: inline-block;
 }
 
 .md-form input {
-  width: 90%;
+  width: 84%;
   float: left;
   margin-left: 0;
   border-radius: 0;
   border-top-right-radius: .25rem;
   border-bottom-right-radius: .25rem;
   border: 0;
+	height: 45px;
 }
 
 .btn_three {
@@ -159,12 +157,12 @@ span.wpcf7-not-valid-tip {
 .md-form i {
   float: left;
   display: block;
-  width: 37px;
+  width: 45px;
   padding: .375rem .75rem;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 34px;
   color: #fff;
-  background-color: #ca3434;
+  background-color: #D94C27;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-top-left-radius: .25rem;
@@ -254,7 +252,7 @@ span.wpcf7-not-valid-tip {
 .social_icons {
   position: fixed;
   bottom: 12%;
-  margin-left: -1rem;
+/*  margin-left: -1rem;*/
   width: 10%;
   z-index: 5;
   text-align: center;
@@ -511,3 +509,4 @@ canvas {
   z-index: 0;
   overflow: hidden;
 }
+
