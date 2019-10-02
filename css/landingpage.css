@@ -153,7 +153,15 @@ color: #fff;
   margin-bottom: 15px;
   display: inline-block;
 }
-
+.sec_pad {
+  padding-top: 0;
+}
+.prototype_service_area {
+  padding-bottom: 0;
+}
+.agency_testimonial_area{
+  padding-top: 0;
+}
 .md-form input {
   width: 85%;
   float: left;
