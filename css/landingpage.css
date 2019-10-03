@@ -390,10 +390,25 @@ canvas {
 }
 
 
-@media screen and (max-width: 900px) and (min-width: 320px) {
+@media screen and (max-width: 900px) and (min-width: 320px) {  
+  .bannercont h5{
+    margin-top: 3%;
+  }
+  .form_content{
+    position: absolute;
+    top: 39px;
+    left: 0;
+    margin: 2%;
+    top: -938px;
+  }
+
+  .text-webmobilezW.mb-4{
+    margin-top: 140%
+  }
   .wow p{
     margin-top: 27%;
   }
+
 
   .banner_shap {
     width: auto;
@@ -458,7 +473,6 @@ canvas {
     display: inline-block;
     margin: 1em 0 1em 0;
   }
-
   .md-form input {
     width: 84%;
   }
@@ -469,6 +483,7 @@ canvas {
 
   .form-control {
     padding: 0.7rem 0 0.7rem 0.7rem;
+
   }
 
   .quote_form {
