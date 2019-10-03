@@ -392,14 +392,14 @@ canvas {
 
 @media screen and (max-width: 900px) and (min-width: 320px) {  
   .bannercont h5{
-    margin-top: 3%;
+    margin-top: 10%;
   }
   .form_content{
     position: absolute;
     top: 39px;
     left: 0;
     margin: 2%;
-    top: -938px;
+    top: -60rem;
   }
 
   .text-webmobilezW.mb-4{
