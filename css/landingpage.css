@@ -10,7 +10,9 @@
 .infoDiv p {
   margin-top: 11%;
 }
-
+b, strong {
+  font-weight: bold;
+}
 .banner_shap {
   width: 80%;
   top: -100px;
